@@ -35,10 +35,6 @@ host
 
        :class:`testinfra.modules.interface.Interface` class
 
-    .. attribute:: iptables
-
-       :class:`testinfra.modules.iptables.Iptables` class
-
     .. attribute:: mount_point
 
        :class:`testinfra.modules.mountpoint.MountPoint` class
@@ -129,14 +125,6 @@ Interface
    :members:
    :undoc-members:
    :exclude-members: get_module_class
-
-
-Iptables
-~~~~~~~~~
-
-.. autoclass:: testinfra.modules.iptables.Iptables
-   :members:
-   :undoc-members:
 
 
 MountPoint
