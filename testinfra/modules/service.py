@@ -78,7 +78,7 @@ class SysvService(Service):
 
     @property
     def is_running(self):
-        # based on /lib/lsb/init-functions
+        # based on /lib/lsb/init-function
         # 0: program running
         # 1: program is dead and pid file exists
         # 3: not running and pid file does not exists
